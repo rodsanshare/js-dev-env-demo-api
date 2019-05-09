@@ -7,7 +7,7 @@ app.use(cors());
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(request, response) {
-  response.send('Hello World!')
+  response.send('Hello World! by Rodney')
 });
 
 app.get('/users', function(req, res) {
